@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Detalhes</title>
+
+<style>
+    body
+    {
+        background-color: #011;
+        padding-left: 25%;
+        padding-right: 25%;
+    }
+    *
+    {
+        color: white;
+    }
+    a
+    {
+        color: cyan;
+    }
+    main
+    {
+        display: flex;  
+        justify-content: center;
+        flex-direction: column;
+        margin-top:  5% ;
+
+    }
+    header
+    {
+        display: flex;
+        justify-content: center;
+    }
+    #UwU
+    {
+        font-weight: 800;
+        font-size: 20px;
+    }
+</style>
+
+</head>
+<body>
+
+    <header>
+        <a href="{% url 'Home' %}">Home</a>
+    </header>
+
+    <nav>
+
+    </nav>
+    <main>
+        <section>
+            <h1>Detalhes do disco {{discos.nome}}.</h1>
+
+            <h2>Ano de lançamento: {{discos.ano}}</h2>
+            <h2>Genero: {{discos.genero}}</h2>
+            <h2>Publisher: {{discos.selo_fonografico}}</h2>
+
+            <p id='UwU'>Descrição:</p> {{discos.descricao}}<p>
+        </section>
+    </main>
+</body>
+</html>
