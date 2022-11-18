@@ -1,0 +1,21 @@
+body
+{
+        background-color: #011;
+        display: flex;
+        justify-content: center;
+}
+*
+{
+        color: white;
+}
+a
+{
+        color: cyan;
+}
+main
+{
+        display: flex;
+        flex-direction: column;
+        
+
+}

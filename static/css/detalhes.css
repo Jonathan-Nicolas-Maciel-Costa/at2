@@ -1,0 +1,32 @@
+body
+    {
+        background-color: #011;
+        padding-left: 25%;
+        padding-right: 25%;
+    }
+    *
+    {
+        color: white;
+    }
+    a
+    {
+        color: cyan;
+    }
+    main
+    {
+        display: flex;  
+        justify-content: center;
+        flex-direction: column;
+        margin-top:  5% ;
+
+    }
+    header
+    {
+        display: flex;
+        justify-content: center;
+    }
+    #UwU
+    {
+        font-weight: 800;
+        font-size: 20px;
+    }
